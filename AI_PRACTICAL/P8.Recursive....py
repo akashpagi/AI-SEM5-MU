@@ -192,41 +192,10 @@ romania_map.locations = dict(
 
 
 
-
-
-
-print("\n\nSolving for drobeta to vaslui....")
-romania_problem = GraphProblem('Drobeta', 'Vaslui', romania_map)
-resultnode = RecursiveBFS(romania_problem)
-if(resultnode[0] != None ):
-    print("Path taken :" , resultnode[0].path())
-    print("Path Cost :" , resultnode[0].path_cost)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''
 print("\nSolving for arad to bucharest...")
 romania_problem = GraphProblem('Arad','Bucharest', romania_map)
 resultnode = RecursiveBFS(romania_problem)
 if(resultnode[0] != None ):
     print("Path taken :" , resultnode[0].path())
     print("Path Cost :" , resultnode[0].path_cost)
-'''
+
